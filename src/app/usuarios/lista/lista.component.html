@@ -1,0 +1,44 @@
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Telefono</th>
+        <th scope="col">Direcccion</th>
+        <th scope="col">Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>
+              <div *ngFor="let usuario of usuarios">
+                  {{usuario.id}}
+                 </div>
+          </td>
+      <td>
+          <div *ngFor="let usuario of usuarios">
+              {{usuario.nombre}}
+             </div>
+      </td>
+      <td>
+          <div *ngFor="let usuario of usuarios">
+              {{usuario.telefono}}
+             </div>
+      </td>
+      <td>
+          <div *ngFor="let usuario of usuarios">
+              {{usuario.direccion}}
+             </div>
+             <td>
+                <div *ngFor="let usuario of usuarios">
+                    {{usuario.correo}}
+                   </div>
+            </td>
+            <td>
+                <div *ngFor="let usuario of usuarios">
+                    <button (click)='this.deleteHuman(usuario.id)' >Eliminar</button>
+                   </div>
+            </td>
+      </tr>
+      
+    </tbody>
+  </table>

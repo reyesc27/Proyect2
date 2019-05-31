@@ -1,0 +1,19 @@
+{
+  "Usuario": [
+    {
+      "id": 1,
+      "nombre": "Cristobal",
+      "telefono": "874125488",
+      "direccion": "Calle Amapola 69",
+      "correo": "malandro666@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "dsd",
+      "telefono": "sds",
+      "direccion": "dss",
+      "correo": "sdsds@ass",
+      "Id": "2"
+    }
+  ]
+}
